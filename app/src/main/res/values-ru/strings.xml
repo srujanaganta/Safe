@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+	<string name="info_sms_sent">SMS отправлена</string>
+	<string name="info_sms_delivered">SMS доставлена получателю</string>
+	<string name="info_sms_not_delivered">SMS НЕ доставлена получателю!</string>
+	<string name="info_sms_noservice">Нет обслуживания! SMS не отправлена!</string>
+	<string name="info_sms_radioof">Нет связи с сотовым оператором! SMS не отправлена!</string>
+	<string name="info_sms_nullpdu">Ошибка PDU! SMS не отправлена!</string>
+	<string name="info_sms_generic">Общий сбой! SMS не отправлена!</string>
+	<string name="gps_state_disabled">GPS выключен!</string>
+	<string name="gps_state_in_progress">Определение координат...</string>
+	<string name="gps_state_unavialable">Данные о местоположении недоступны</string>
+	<string name="menu_item_settings">Настройки</string>
+	<string name="menu_item_rate">Оценить приложение</string>
+	<string name="menu_item_sms_regexp">Сохраненные точки</string>
+	<string name="menu_item_add_coord">Добавить точку</string>
+	<string name="another_msg_button_text">Отправить еще одно SMS</string>
+	<string name="enable_gps_btn">Включить GPS</string>
+	<string name="sms_is_sent_msg">Сообщение отправлено</string>
+	<string name="error_no_phone_number">Укажите номер телефона!</string>
+	<string name="default_sms_msg">Я тут</string>
+	<string name="save_btn_txt">Сохранить</string>
+	<string name="cancel_btn_txt">Отменить</string>
+	<string name="del_btn_txt">Удалить</string>
+	<string name="info_print1">Координаты получены, точность</string>
+	<string name="info_print2">м</string>
+	<string name="info_latitude">Широта</string>
+	<string name="info_longitude">Долгота</string>
+	<string name="info_accuracy">Точность</string>
+	<string name="info_please_wait">Дождитесь окончания отправки SMS на</string>
+	<string name="share_topic">Мои GPS координаты</string>
+	<string name="share_via">Поделиться через</string>
+	<string name="imgdesc_copy">Копировать в буфер обмена</string>
+	<string name="imgdesc_share">Поделиться</string>
+	<string name="imgdesc_map">Открыть на карте</string>
+	<string name="imgdesc_send_sms">Отправить СМС</string>
+	<string name="imgdesc_choose_contact">Выбрать контакт</string>
+    <string name="enterAnyPhone">Номер телефона</string>
+    <string name="text_copied">Скопировано в буфер обмена</string>
+    <string name="pref_keepscreen">Держать экран включенным</string>
+    <string name="pref_keepscreen_summary">Если отмечено, экран не будет отключаться автоматически</string>
+    <string name="pref_clip">Буфер обмена</string>
+    <string name="pref_clip_summary">Укажите, что копировать в буфер обмена при нажатии соответствующей кнопки</string>
+    <string name="pref_smstext">Текст СМС</string>
+    <string name="pref_general">Общие</string>
+    <string name="pref_content">Содержание</string>
+    <string name="pref_about">О приложении</string>
+    <string name="pref_about_summary">Версия</string>
+    <string name="pref_apptheme">Тема оформления</string>
+	<string name="pref_regexp_sms">Сканировать входящие СМС</string>
+	<string name="pref_regexp_sms_summary">Показывать push-уведомление в случае обнаружения во входящем СМС сообщении координат</string>
+	<string name="tab_mycoords">Сохраненные</string>
+	<string name="tab_mysms">Вх. СМС</string>
+	<string name="tab_mysms_out">Исх. СМС</string>
+	<string name="point_edit_text_placeholder">Название точки</string>
+	<string name="save_point_dlg_header">Сохранение координат</string>
+	<string name="mysms_actions">Действия</string>
+	<string name="point_saved">Координаты сохранены</string>
+	<string name="addpoint_la_ex">Например, 55.1784657</string>
+	<string name="addpoint_lo_ex">Например, 57.5734553</string>
+	<string name="add_point_error">Вы ввели некорректные координаты!</string>
+    <string name="prefs_lang">Язык</string>
+
+    <string name="choose_fav_app">Любимое приложение</string>
+    <string name="choose_fav_app_info">Укажите приложение для быстрой отправки координат</string>
+    <string name="pref_sms_content_summary">Укажите данные для посылки при помощи SMS</string>
+
+    <!-- Themes -->
+    <string name="app_theme_1">Коричневая</string>
+    <string name="app_theme_2">Сине-серая</string>
+    <string name="app_theme_3">Желтая</string>
+    <string name="app_theme_4">Розовая</string>
+    <string name="app_theme_5">Бирюзовая</string>
+    <string name="app_theme_6">Серая</string>
+
+    <string name="donate_title_1">Поездка на автобусе</string>
+    <string name="donate_title_2">Вкусный гамбургер</string>
+    <string name="donate_title_3">Хорошее пивко</string>
+    <string name="donate_title_4">Билет в кино</string>
+    <string name="donate_title_5">Оплатить вечеринку! Тусэ!</string>
+
+    <string name="menu_item_donate">Пожертвование</string>
+
+    <string name="donation_title">Спасибо за пожертвование!</string>
+    <string name="donation_desc">
+        \nВ качестве небольшого подарка за Ваше пожертвование, будет открыто несколько новых тем оформления. Они будут доступны в «Настройках»!
+        \n\nИтак, Вы можете помочь разработчику купить что-то из этого списка:
+        \n
+    </string>
+
+    <string name="donation_already_purchased">Вы уже сделали это пожертвование! Спасибо кстати!</string>
+    <string name="donation_restore_purchases">Восстановить покупки</string>
+    <string name="donation_billing_not_ready">Ваша биллинговая система не подключена!</string>
+
+    <string name="sms_notify_title">Координаты получены</string>
+    <string name="sms_notify_desc1">Нажмите, чтобы открыть на карте</string>
+
+    <string name="pref_share_buttons_text">Контент кнопок обмена</string>
+    <string name="pref_share_buttons_text_summary">Укажите данные для кнопок Поделиться и Любимое приложение</string>
+
+	<string name="text_insufficient_privileges">Недостаточно прав</string>
+    <string name="text_current_coords">Обновлять текущие координаты</string>
+    <string name="menu_converter">Конвертер</string>
+    <string name="text_converter_decimals">Десятичные</string>
+    <string name="text_converter_dm">Градусы, минуты</string>
+    <string name="text_converter_dms">Градусы, минуты, секунды</string>
+    <string name="text_converter_utm_h">UTM (Полусфера)</string>
+    <string name="text_converter_utm_z">UTM (Зона)</string>
+    <string name="another_msg_button_smsapp">Открыть приложение для СМС</string>
+
+    <string name="pref_text_before">Текст до координат в СМС</string>
+    <string name="pref_text_before_summary">Этот текст будет вставлен в СМС перед координатами</string>
+    <string name="pref_text_after">Текст после координат в СМС</string>
+    <string name="pref_text_after_summary">Этот текст будет вставлен в СМС после координат</string>
+
+</resources>

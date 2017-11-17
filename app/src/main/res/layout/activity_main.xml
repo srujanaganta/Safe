@@ -1,0 +1,148 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="${relativePackage}.${activityClass}">
+
+    <!-- Произвольный номер телефона -->
+
+    <RelativeLayout
+        android:id="@+id/RelLayout1"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:paddingLeft="0dp"
+        android:paddingRight="0dp">
+
+        <ImageButton
+            android:id="@+id/send_plain"
+            android:layout_width="wrap_content"
+            android:layout_height="54dp"
+            android:layout_alignParentRight="true"
+            android:adjustViewBounds="true"
+            android:contentDescription="@string/imgdesc_send_sms"
+            android:onClick="initiateSMSSend"
+            android:scaleType="fitCenter"
+            android:src="?attr/btn_ic_action_send_now" />
+
+        <ImageButton
+            android:id="@+id/choose_contact"
+            android:layout_width="wrap_content"
+            android:layout_height="54dp"
+            android:layout_alignParentLeft="true"
+            android:adjustViewBounds="true"
+            android:contentDescription="@string/imgdesc_choose_contact"
+            android:onClick="chooseContact"
+            android:scaleType="fitCenter"
+            android:src="?attr/btn_ic_action_person" />
+
+        <EditText
+            android:id="@+id/editText1"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_toRightOf="@id/choose_contact"
+            android:hint="@string/enterAnyPhone"
+            android:inputType="phone"
+
+            />
+
+    </RelativeLayout>
+
+    <LinearLayout
+
+        android:id="@+id/linearLayoutText"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/RelLayout1"
+        android:orientation="horizontal"
+        android:paddingBottom="8dp"
+        android:paddingTop="8dp">
+
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:gravity="center"
+            android:maxLines="3"
+            android:singleLine="false"
+            android:text="" />
+
+    </LinearLayout>
+
+    <!-- Кнопки шаринга -->
+    <RelativeLayout
+        android:id="@+id/RelLayoutSh"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/linearLayoutText"
+        android:orientation="horizontal"
+        android:paddingLeft="0dp"
+        android:paddingRight="0dp">
+
+        <ImageButton
+            android:id="@+id/btnSave"
+            android:layout_width="wrap_content"
+            android:layout_height="54dp"
+            android:layout_alignParentRight="true"
+            android:adjustViewBounds="true"
+            android:contentDescription="@string/save_btn_txt"
+            android:onClick="saveCoordinates"
+            android:scaleType="fitCenter"
+
+            android:src="?attr/btn_ic_action_save" />
+
+        <ImageButton
+            android:id="@+id/btnMap"
+            android:layout_width="wrap_content"
+            android:layout_height="54dp"
+            android:layout_toLeftOf="@id/btnSave"
+            android:adjustViewBounds="true"
+            android:contentDescription="@string/imgdesc_map"
+            android:onClick="openOnMap"
+            android:scaleType="fitCenter"
+            android:src="?attr/btn_ic_action_map" />
+
+
+
+
+        <ImageButton
+            android:id="@+id/btnShare"
+            android:layout_width="wrap_content"
+            android:layout_height="54dp"
+            android:adjustViewBounds="true"
+            android:contentDescription="@string/imgdesc_share"
+            android:scaleType="fitCenter"
+            android:src="?attr/btn_ic_action_share" />
+
+
+    </RelativeLayout>
+    <!-- Кнопка включения GPS -->
+
+    <LinearLayout
+
+        android:id="@+id/RelLayoutGPSBTN"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/RelLayoutSh"
+        android:orientation="horizontal"
+        android:paddingLeft="0dp"
+        android:paddingRight="0dp">
+
+        <Button
+            android:id="@+id/button3"
+            style="?android:attr/buttonStyleSmall"
+            android:layout_width="fill_parent"
+            android:layout_height="54dp"
+            android:onClick="showGpsSystemDialog"
+            android:text="@string/enable_gps_btn" />
+
+    </LinearLayout>
+
+
+</RelativeLayout>

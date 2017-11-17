@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="info_sms_sent">SMS enviada</string>
+    <string name="info_sms_delivered">SMS entregue</string>
+    <string name="info_sms_not_delivered">SMS NÃO entregue</string>
+    <string name="info_sms_noservice">Sem serviço! SMS não enviada!</string>
+    <string name="info_sms_radioof">Sem rede! SMS não foi enviada!</string>
+    <string name="info_sms_nullpdu">Erro PDU! SMS não foi enviada!</string>
+    <string name="info_sms_generic">Erro genérico! SMS não foi enviada!</string>
+    <string name="gps_state_disabled">GPS está desligado!</string>
+    <string name="gps_state_in_progress">Adquirindo coordenadas...</string>
+    <string name="gps_state_unavialable">Coordenadas do GPS não estão disponíveis</string>
+    <string name="menu_item_settings">Opções</string>
+    <string name="menu_item_rate">Classifica a aplicação</string>
+    <string name="menu_item_sms_regexp">Repositório das coordenadas</string>
+    <string name="menu_item_add_coord">Adiciona um ponto</string>
+    <string name="another_msg_button_text">Enviar outra SMS</string>
+    <string name="enable_gps_btn">Activar GPS</string>
+    <string name="sms_is_sent_msg">SMS enviada com sucesso</string>
+    <string name="error_no_phone_number">Especificar o numero de telemóvel primeiro</string>
+    <string name="default_sms_msg">Estou aqui</string>
+    <string name="save_btn_txt">Guardar</string>
+    <string name="cancel_btn_txt">Cancelar</string>
+    <string name="del_btn_txt">Apagar</string>
+    <string name="info_print1">GPS OK, precisão</string>
+    <string name="info_print2">m</string>
+    <string name="info_latitude">Latitude</string>
+    <string name="info_longitude">Longitude</string>
+    <string name="info_accuracy">Precisão</string>
+    <string name="info_please_wait">Espere enquanto envio a SMS</string>
+    <string name="share_topic">Coordenadas do meu GPS</string>
+    <string name="share_via">Partilhar por</string>
+    <string name="imgdesc_copy">Copiar para o clipboard</string>
+    <string name="imgdesc_share">Partilha</string>
+    <string name="imgdesc_map">Mostrar no mapa</string>
+    <string name="imgdesc_send_sms">Enviar SMS</string>
+    <string name="imgdesc_choose_contact">Escolha um contacto</string>
+    <string name="enterAnyPhone">Numero de telefone</string>
+    <string name="text_copied">Copiado para o clipboard</string>
+    <string name="pref_keepscreen">Manter ecrã ligado</string>
+    <string name="pref_keepscreen_summary">Não permitir o desligar do ecrã enquanto a aplicação estiver activa.</string>
+    <string name="pref_clip">Conteúdo do clipboard</string>
+    <string name="pref_clip_summary">Especifique o que quer copiar</string>
+    <string name="pref_smstext">SMS de texto</string>
+    <string name="pref_general">Geral</string>
+    <string name="pref_content">Conteudo</string>
+    <string name="pref_about">Acerca</string>
+    <string name="pref_about_summary">Versão</string>
+    <string name="pref_apptheme">Tema da aplicação</string>
+    <string name="pref_regexp_sms">Manusear sms recebidas</string>
+    <string name="pref_regexp_sms_summary">Lançar automaticamente o Maps-app no caso de receber uma sms que contenha coordenadas validas</string>
+    <string name="tab_mycoords">Guardada</string>
+    <string name="tab_mysms">Entrada</string>
+    <string name="tab_mysms_out">Senviada</string>
+    <string name="point_edit_text_placeholder">Nome do ponto</string>
+    <string name="save_point_dlg_header">Guardar ponto</string>
+    <string name="mysms_actions">Acções</string>
+    <string name="point_saved">Ponto foi guardado</string>
+    <string name="addpoint_la_ex">Por exemplo 55.1784657</string>
+    <string name="addpoint_lo_ex">Por exemplo 55.1784657</string>
+    <string name="add_point_error">Coordenadas invalidas!</string>
+    <string name="prefs_lang">Língua</string>
+
+    <string name="choose_fav_app">Favourite app</string>
+    <string name="choose_fav_app_info">Specify the application for fast sharing feature</string>
+    <string name="pref_sms_content_summary">Specify data to be sent via SMS</string>
+
+    <!-- Themes -->
+    <string name="app_theme_1">Marrom</string>
+    <string name="app_theme_2">Azul Cinza</string>
+    <string name="app_theme_3">Amarelo</string>
+    <string name="app_theme_4">Rosa</string>
+    <string name="app_theme_5">Cerceta</string>
+    <string name="app_theme_6">Cinza</string>
+
+    <string name="donate_title_1">Bus ride</string>
+    <string name="donate_title_2">Tasty hamburger</string>
+    <string name="donate_title_3">Good beer</string>
+    <string name="donate_title_4">Cinema ticket</string>
+    <string name="donate_title_5">Pay for the party! Let\'s rock!</string>
+
+    <string name="menu_item_donate">Doar</string>
+
+    <string name="donation_title">Thank you for donating!</string>
+    <string name="donation_desc">
+        \nAs a small gift for your donation, there are few <b>new Application themes</b> available in Settings, check them out after making the donation!
+        \n\nSo, you can help developer to buy anything from the following list:
+        \n
+    </string>
+
+    <string name="donation_already_purchased">You have already made this donation! Thanks for that by the way!</string>
+    <string name="donation_restore_purchases">Restore purchases</string>
+    <string name="donation_billing_not_ready">Your billing system is not ready!</string>
+
+    <string name="sms_notify_title">Location received</string>
+    <string name="sms_notify_desc1">Tap to view it on the map</string>
+
+    <string name="pref_share_buttons_text">Share Buttons content</string>
+    <string name="pref_share_buttons_text_summary">Specify data for Share and Favourite buttons</string>
+
+    <string name="text_insufficient_privileges">Insufficient privileges</string>
+    <string name="text_current_coords">Update current coordinates</string>
+    <string name="menu_converter">Converter</string>
+    <string name="text_converter_decimals">Decimals</string>
+    <string name="text_converter_dm">Degrees, minutes</string>
+    <string name="text_converter_dms">Degrees, minutes, seconds</string>
+    <string name="text_converter_utm_h">UTM (Hemisphere)</string>
+    <string name="text_converter_utm_z">UTM (Zone)</string>
+    <string name="another_msg_button_smsapp">Open SMS App</string>
+
+    <string name="pref_text_before">Text before coordinates in SMS</string>
+    <string name="pref_text_before_summary">This text will be inserted in SMS before coordinates</string>
+    <string name="pref_text_after">Text after coordinates in SMS</string>
+    <string name="pref_text_after_summary">This text will be inserted in SMS after coordinates</string>
+
+</resources>
